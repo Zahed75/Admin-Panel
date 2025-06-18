@@ -32,13 +32,13 @@ class RecentFiles extends StatelessWidget {
               // minWidth: 600,
               columns: [
                 DataColumn(
-                  label: Text("File Name"),
+                  label: Text("Outlet Name"),
                 ),
                 DataColumn(
-                  label: Text("Date"),
+                  label: Text("Survey Date"),
                 ),
                 DataColumn(
-                  label: Text("Size"),
+                  label: Text("Score"),
                 ),
               ],
               rows: List.generate(
